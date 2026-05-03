@@ -2,6 +2,10 @@
 
 Projeto autoral de **IA aplicada ao Direito, Legal Operations e automação jurídica**, criado para apoiar análise processual, revisão estratégica, organização de teses, padronização documental, gestão do conhecimento e melhoria de fluxos jurídicos.
 
+## Demonstração
+
+![Interface do chatbot com IA](assets/chatbot-interface.png)
+
 ## Problema
 
 Rotinas jurídicas envolvem grande volume de documentos, prazos, teses, provas, fundamentos, riscos e decisões estratégicas.
