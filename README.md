@@ -4,7 +4,7 @@ Projeto autoral de **IA aplicada ao Direito, Legal Operations e automação jur�
 
 ## Demonstração
 
-![Interface do chatbot com IA](assets/chatbot-interface.png)
+![Interface do chatbot com IA](assets/chatbot-interface.PNG)
 
 ## Problema
 
