@@ -1,10 +1,10 @@
-# A|DVOGADA — Legal AI aplicada ao Contencioso
+# A|DVOGADA — Legal AI aplicada à Advocacia
 
-Projeto autoral de **IA aplicada ao Direito, Legal Operations e automação jurídica**, desenvolvido para apoiar rotinas de contencioso trabalhista, previdenciário e administrativo.
+Projeto autoral de **IA aplicada ao Direito, Legal Operations e automação jurídica**, desenvolvido para apoiar rotinas jurídicas contenciosas, consultivas, documentais e operacionais, com foco em Direito do Trabalho, Direito Previdenciário e Direito Administrativo.
 
-A A|DVOGADA atua como agente jurídico especializado em **análise processual, identificação de pedidos, mapeamento probatório, estruturação de teses, impugnação documental, organização de conhecimento jurídico e apoio à redação de peças processuais**.
+A A|DVOGADA atua como agente jurídico especializado em **análise processual, análise documental, estruturação de teses, elaboração de peças, pareceres, manifestações, notificações, petições iniciais, contestações, recursos, relatórios jurídicos e apoio à tomada de decisão**.
 
-O projeto combina experiência jurídica prática, engenharia de prompts, governança de IA generativa, análise documental e padronização de fluxos jurídicos.
+O projeto combina experiência jurídica prática, engenharia de prompts, governança de IA generativa, análise documental, padronização de fluxos jurídicos e revisão humana especializada.
 
 ---
 
@@ -30,25 +30,28 @@ Quando essas informações ficam dispersas entre autos, modelos, planilhas, anot
 
 ## Solução proposta
 
-A A|DVOGADA estrutura um fluxo jurídico assistido por IA, com curadoria humana especializada, para apoiar a rotina contenciosa.
+A A|DVOGADA estrutura um fluxo jurídico assistido por IA, com curadoria humana especializada, para apoiar atividades contenciosas, consultivas e operacionais.
 
 O projeto busca organizar:
 
-- análise integral dos autos;
-- identificação de pedidos expressos;
-- separação entre pedidos e alegações sem pedido autônomo;
-- mapeamento de documentos e provas;
+- análise integral de autos processuais;
+- análise de documentos jurídicos e administrativos;
+- identificação de fatos relevantes;
+- identificação de pedidos, riscos, obrigações e providências;
+- separação entre pedidos expressos, alegações e pontos meramente contextuais;
+- mapeamento de documentos, provas e lacunas;
 - identificação de fatos incontroversos e controvertidos;
-- identificação de lacunas probatórias;
 - construção de teses jurídicas;
+- elaboração de petições iniciais, contestações, recursos, manifestações e requerimentos;
+- elaboração de pareceres, memorandos, relatórios e respostas consultivas;
+- análise de contratos, notificações, comunicações e documentos internos;
 - impugnação documental;
 - análise de mídias digitais;
-- padronização de modelos e checklists;
+- padronização de modelos, checklists e fluxos;
 - revisão de fundamentos legais e jurisprudenciais;
-- apoio à redação estratégica de peças processuais;
 - gestão do conhecimento jurídico.
 
-A proposta não é substituir o raciocínio jurídico humano, mas apoiar etapas repetitivas, analíticas e documentais com método, rastreabilidade e curadoria técnica.
+A proposta não é substituir o raciocínio jurídico humano, mas apoiar etapas analíticas, documentais, redacionais e estratégicas com método, rastreabilidade, governança e revisão técnica.
 
 ---
 
@@ -177,22 +180,46 @@ A análise considera interlocutores, data, hora, contexto anterior e posterior, 
 
 Quando não for possível analisar a mídia com segurança, o agente sinaliza a necessidade de transcrição, complementação ou revisão humana.
 
-### 7. Redação assistida
+### 7. Consultivo jurídico
 
-A redação é realizada por etapas, após análise dos autos, organização das provas e validação da estrutura.
+O agente também apoia atividades consultivas, como análise de dúvidas jurídicas, elaboração de respostas técnicas, pareceres, memorandos, relatórios, notificações e orientações estruturadas.
 
-O agente apoia a elaboração de peças como:
+A atuação consultiva considera:
 
+- contexto apresentado;
+- documentos disponíveis;
+- riscos jurídicos;
+- obrigações aplicáveis;
+- alternativas de encaminhamento;
+- pontos que exigem validação humana;
+- limites da informação disponível;
+- necessidade de complementação documental.
+
+Esse módulo amplia o uso da A|DVOGADA para além da atuação processual, permitindo apoio em rotinas preventivas, estratégicas e operacionais.
+
+### 8. Redação assistida
+
+A redação é realizada por etapas, após análise do caso, organização das informações, documentos disponíveis e validação da estrutura.
+
+O agente apoia a elaboração de:
+
+- petições iniciais;
 - contestações;
+- réplicas;
 - recursos;
 - manifestações;
 - impugnações;
 - requerimentos;
+- notificações extrajudiciais;
+- pareceres;
+- memorandos;
+- relatórios jurídicos;
+- respostas consultivas;
 - tópicos jurídicos específicos.
 
-A proposta é produzir textos mais organizados, técnicos, coerentes e conectados ao conjunto probatório.
+A proposta é produzir textos mais organizados, técnicos, coerentes e conectados ao contexto jurídico, probatório ou documental analisado.
 
-### 8. Revisão de fundamentos
+### 9. Revisão de fundamentos
 
 O agente possui controle específico para artigos legais, súmulas, orientações jurisprudenciais e julgados.
 
@@ -200,7 +227,7 @@ A lógica do projeto é evitar a criação artificial de fundamentos jurídicos.
 
 Essa etapa contribui para reduzir riscos de alucinação jurídica e aumentar a confiabilidade do material produzido.
 
-### 9. Governança de linguagem
+### 10. Governança de linguagem
 
 O agente foi configurado para evitar linguagem interna, informal ou inadequada em peças jurídicas.
 
@@ -215,7 +242,7 @@ A redação prioriza expressões compatíveis com a prática forense, como:
 
 Essa camada de governança ajuda a manter a consistência técnica e profissional dos textos.
 
-### 10. Check final
+### 11. Check final
 
 Antes da conclusão da peça ou análise, o agente executa revisão de:
 
@@ -239,18 +266,23 @@ O objetivo é entregar uma análise ou minuta com maior consistência, rastreabi
 
 | Comando | Finalidade |
 |---|---|
-| `ANALISAR AUTOS` | Inicia a análise integral do processo. |
+| `ANALISAR CASO` | Inicia a análise de caso processual, consultivo ou documental. |
+| `ANALISAR AUTOS` | Inicia a análise integral de processo judicial ou administrativo. |
+| `ANALISAR DOCUMENTOS` | Organiza documentos jurídicos, administrativos ou contratuais. |
 | `REVISAR PEDIDOS` | Separa pedidos expressos de alegações sem pedido autônomo. |
 | `MAPA DE PROVAS` | Organiza documentos, fatos provados, lacunas e riscos. |
+| `MAPA DE RISCOS` | Estrutura riscos jurídicos, processuais, documentais ou consultivos. |
 | `GERAR ESTRUTURA DA PEÇA` | Propõe a estrutura da peça antes da redação. |
-| `INICIAR PEÇA [tipo]` | Inicia a redação da peça validada. |
-| `PRÓXIMO` | Avança para o próximo tópico da peça. |
+| `INICIAR PEÇA [tipo]` | Inicia petição inicial, contestação, recurso, manifestação ou outra peça validada. |
+| `INICIAR CONSULTIVO` | Estrutura resposta técnica, parecer, memorando, relatório ou orientação jurídica. |
+| `PRÓXIMO` | Avança para o próximo tópico da peça, parecer ou análise. |
 | `IMPUGNAR DOCUMENTOS` | Apoia a impugnação documental individualizada. |
 | `ANALISAR MÍDIAS` | Analisa prints, áudios e vídeos. |
 | `REVISAR LINGUAGEM` | Revisa linguagem jurídica e padronização textual. |
 | `REVISAR ARTIGOS E JURISPRUDÊNCIAS` | Verifica fundamentos legais e jurisprudenciais. |
-| `CHECK DE RISCO` | Aponta riscos processuais, probatórios e argumentativos. |
+| `CHECK DE RISCO` | Aponta riscos jurídicos, processuais, probatórios e argumentativos. |
 | `CHECAR PEÇA` | Executa revisão final da peça. |
+| `CHECAR CONSULTIVO` | Executa revisão final de parecer, resposta técnica ou relatório. |
 
 ---
 
@@ -274,9 +306,9 @@ O objetivo é entregar uma análise ou minuta com maior consistência, rastreabi
 
 ## Diferencial
 
-O diferencial do projeto é unir experiência jurídica prática com tecnologia aplicada, criando um fluxo de apoio ao contencioso que prioriza método, prova, rastreabilidade e revisão humana.
+O diferencial do projeto é unir experiência jurídica prática com tecnologia aplicada, criando um fluxo de apoio à advocacia que prioriza método, prova, documento, rastreabilidade e revisão humana.
 
-A A|DVOGADA não foi desenhada apenas para gerar texto. O objetivo é organizar o raciocínio jurídico, estruturar provas, identificar riscos, controlar fundamentos e apoiar a elaboração de peças mais consistentes.
+A A|DVOGADA não foi desenhada apenas para gerar texto. O objetivo é organizar o raciocínio jurídico, estruturar informações, identificar riscos, controlar fundamentos, revisar documentos e apoiar a elaboração de peças processuais, pareceres, manifestações e respostas consultivas mais consistentes.
 
 ---
 
@@ -285,12 +317,21 @@ A A|DVOGADA não foi desenhada apenas para gerar texto. O objetivo é organizar 
 A A|DVOGADA pode ser aplicada em rotinas como:
 
 - triagem inicial de casos;
+- análise de autos processuais;
+- análise de documentos jurídicos e administrativos;
+- análise de contratos e comunicações;
 - organização de documentos e provas;
 - identificação de pontos controvertidos;
 - revisão de petições iniciais;
+- elaboração de petições iniciais;
 - apoio à elaboração de contestações;
 - apoio à elaboração de recursos;
-- estruturação de teses defensivas;
+- elaboração de manifestações e requerimentos;
+- elaboração de pareceres e memorandos;
+- elaboração de respostas consultivas;
+- elaboração de notificações extrajudiciais;
+- estruturação de teses jurídicas;
+- estruturação de riscos e providências;
 - impugnação documental;
 - análise de mídias digitais;
 - padronização de modelos internos;
@@ -307,37 +348,80 @@ A A|DVOGADA pode ser aplicada em rotinas como:
 aidvogada-ia-aplicada/
 ├── README.md
 ├── docs/
-│   ├── fluxo-de-analise.md
-│   ├── checklist-contestacao.md
+│   ├── visao-geral.md
+│   ├── fluxo-de-analise-juridica.md
+│   ├── fluxo-contencioso.md
+│   ├── fluxo-consultivo.md
+│   ├── checklist-contencioso.md
+│   ├── checklist-consultivo.md
 │   ├── checklist-ia-responsavel.md
 │   ├── protocolo-midias.md
+│   ├── impugnacao-documental.md
 │   └── estrutura-base-conhecimento.md
-├── examples/
-│   └── caso-ficticio-trabalhista.md
 ├── prompts/
-│   ├── prompt-analise-autos.md
-│   ├── prompt-revisao-pedidos.md
-│   ├── prompt-mapa-provas.md
-│   ├── prompt-impugnacao-documental.md
-│   └── prompt-check-final.md
-└── assets/
-    └── fluxo-aidvogada.png
+│   ├── analise-caso/
+│   │   ├── prompt-analise-caso.md
+│   │   ├── prompt-analise-autos.md
+│   │   ├── prompt-analise-documentos.md
+│   │   └── prompt-mapa-riscos.md
+│   ├── contencioso/
+│   │   ├── prompt-peticao-inicial.md
+│   │   ├── prompt-contestacao.md
+│   │   ├── prompt-replica.md
+│   │   ├── prompt-recurso.md
+│   │   ├── prompt-manifestacao.md
+│   │   └── prompt-impugnacao-documental.md
+│   ├── consultivo/
+│   │   ├── prompt-parecer-juridico.md
+│   │   ├── prompt-memorando.md
+│   │   ├── prompt-resposta-consultiva.md
+│   │   ├── prompt-notificacao-extrajudicial.md
+│   │   └── prompt-relatorio-juridico.md
+│   └── revisao-governanca/
+│       ├── prompt-revisao-pedidos.md
+│       ├── prompt-mapa-provas.md
+│       ├── prompt-revisao-fundamentos.md
+│       ├── prompt-check-risco.md
+│       └── prompt-check-final.md
+├── examples/
+│   ├── contencioso/
+│   │   ├── caso-ficticio-peticao-inicial.md
+│   │   ├── caso-ficticio-contestacao.md
+│   │   └── caso-ficticio-recurso.md
+│   ├── consultivo/
+│   │   ├── exemplo-parecer-juridico.md
+│   │   ├── exemplo-resposta-consultiva.md
+│   │   └── exemplo-notificacao-extrajudicial.md
+│   └── analise-documental/
+│       ├── exemplo-analise-documentos.md
+│       └── exemplo-analise-midias.md
+├── assets/
+│   ├── fluxo-geral-aidvogada.png
+│   ├── fluxo-contencioso.png
+│   ├── fluxo-consultivo.png
+│   └── arquitetura-logica.png
+└── roadmap.md
 ```
 
 ---
 
 ## Roadmap
 
-- [ ] Criar exemplo fictício de análise processual.
-- [ ] Estruturar fluxo demonstrativo de contestação trabalhista.
+- [ ] Criar exemplo fictício completo de análise jurídica.
+- [ ] Estruturar fluxo demonstrativo de petição inicial.
+- [ ] Estruturar fluxo demonstrativo de contestação.
+- [ ] Estruturar fluxo demonstrativo de recurso.
+- [ ] Criar exemplo fictício de parecer jurídico.
+- [ ] Criar exemplo fictício de resposta consultiva.
+- [ ] Criar exemplo fictício de notificação extrajudicial.
 - [ ] Documentar prompts e critérios de revisão humana.
 - [ ] Criar checklist de uso responsável de IA no jurídico.
-- [ ] Criar fluxograma visual do funcionamento do agente.
-- [ ] Organizar base demonstrativa de teses, documentos e modelos.
+- [ ] Criar fluxograma visual do funcionamento geral do agente.
+- [ ] Organizar base demonstrativa de teses, documentos, modelos e fundamentos.
 - [ ] Desenvolver interface simples em Streamlit.
 - [ ] Criar módulo de checklist documental.
-- [ ] Criar módulo de análise de risco por pedido.
-- [ ] Criar módulo de revisão final de peça.
+- [ ] Criar módulo de análise de risco por pedido, obrigação ou providência.
+- [ ] Criar módulo de revisão final de peça, parecer ou resposta consultiva.
 
 ---
 
